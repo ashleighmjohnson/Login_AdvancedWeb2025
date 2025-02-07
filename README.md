@@ -17,7 +17,7 @@ Visual studio code
 - validation checks
 
 ## *Installation Instructions*
-Github repository: 
+Github repository: https://github.com/ashleighmjohnson/Login_AdvancedWeb2025
 
 ## *Usage Guidlines*
 ** There is no Javascript on this so it is not functional **
