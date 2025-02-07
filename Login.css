@@ -1,0 +1,100 @@
+body {
+    background-image: url(bgpic.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'fontslay', sans-serif;
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+form {
+    width: 500px;
+    height: 650px;
+    margin-left: 0;
+    padding-top: 20px;
+    background-color: rgb(162, 197, 216);
+    text-align: center;
+    box-shadow: 2px 2px 5px gray;
+    margin-top: 10px;
+}
+
+.nameClass,
+.passwordClass,
+.lastNameClass,
+.phoneClass,
+.emailClass {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="lastname"],
+input[type="phone"],
+input[type="email"] {
+    width: 300px;
+    padding: 12px;
+    font-size: 12px;
+}
+
+#password,
+#name,
+#lastNameid,
+#phone,
+#email,
+#passwordConfirm {
+    box-shadow: 2px 2px 5px gray;
+}
+
+.nameClass {
+    padding-top: 15px;
+}
+
+#userLabel,
+#pwordLabel,
+#lastNameid,
+#phone,
+#email {
+    font-size: 20px;
+}
+
+#signUpB {
+    background-color: white;
+    height: 30px;
+    width: auto;
+    box-shadow: 2px 2px 5px gray;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+@font-face {
+    font-family: 'fontslay';
+    src: url('Norse-Bold.otf') format('woff2');
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
