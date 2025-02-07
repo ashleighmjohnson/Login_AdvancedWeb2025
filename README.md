@@ -27,4 +27,4 @@ Github repository:
 Improvements included adding functionality, as well as a database. Sign out, and an updated signup page.
 
 ## Learning Outcomes
-Improved handling of CSS and organization of html.
+Improved handling of CSS and organization of HTML.
